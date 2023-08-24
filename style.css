@@ -1,7 +1,8 @@
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-inline: 30%;
+  margin-inline: 15%;
+  gap: 2rem;
 }
 h1 {
   text-align: center;
@@ -18,4 +19,25 @@ footer {
 
 article {
   border-style: solid;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-inline: 0%;
+  }
+
+  .article1 {
+    grid-column: 1;
+  }
+
+  h2 {
+    margin-left: 0%;
+  }
 }
