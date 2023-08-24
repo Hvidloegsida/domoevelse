@@ -21,8 +21,12 @@ const no = document.querySelector("#no");
 no.innerHTML = "JEG VIL HJEM <b>TIL DIIIIIG</b>";
 console.log(no);
 
+/*SKIFT BILLEDE I JS*/
+/*HER TAGER JEG FAT I MIN IMG*/
 const pic = document.querySelector("img");
+/*HER BRUGER JEG SETATTRRIBUTE OG SKRIVER SRC (SOURCE) OG FORTÆLLER SÅ HVAD JS SKAL ERSTATTE MIT NUVÆRENDE SRC MED*/
 pic.setAttribute("src", "billede.jpg");
+/*HER GØR JEG DET SAMME, MEN FORTÆLLER HVAD DEN SKAL ERSTATTE ALT MED*/
 pic.setAttribute("alt", "computer");
 console.log(pic);
 
