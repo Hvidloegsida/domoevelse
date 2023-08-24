@@ -42,3 +42,14 @@ const text = document.createTextNode("NOOOOOOO");
 overskrift.appendChild(text);
 /* HER GØR JEG SÅ BRUG AF MIT BODY TAG IGEN, VED AT SMIDE DEN OVERSKRIFT JEG LAVEDE FØR VED BRUG AF MIN TEXT. SÅ VED JS AT MIN H1 SKAL VÆRE INDE I BODY*/
 bodyy.appendChild(overskrift);
+
+const firstBook = {
+  titel: "Ringenes Herre",
+  author: "Tokien",
+  genre: ["Fantasy", "Drama", "Eventyr"],
+  pages: 751,
+  hasRead: true,
+  hasIllustration: false,
+};
+
+oonsole.log(firstBook.genre);
