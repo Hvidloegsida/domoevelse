@@ -1,0 +1,17 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-inline: 30%;
+}
+h1 {
+  text-align: center;
+  border-style: solid;
+}
+footer {
+  text-align: center;
+  border-style: solid;
+}
+
+article {
+  border-style: solid;
+}
