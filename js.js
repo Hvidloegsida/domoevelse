@@ -21,3 +21,9 @@ const pic = document.querySelector("img");
 pic.setAttribute("src", "billede.jpg");
 pic.setAttribute("alt", "computer");
 console.log(pic);
+
+const bodyy = document.querySelector("body");
+const overskrift = document.createElement("h1");
+const text = document.createTextNode("NOOOOOOO");
+overskrift.appendChild(text);
+bodyy.appendChild(overskrift);
