@@ -16,3 +16,8 @@ console.log(pp);
 const no = document.querySelector("#no");
 no.innerHTML = "JEG VIL HJEM <b>TIL DIIIIIG</b>";
 console.log(no);
+
+const pic = document.querySelector("img");
+pic.setAttribute("src", "billede.jpg");
+pic.setAttribute("alt", "computer");
+console.log(pic);
