@@ -52,4 +52,4 @@ const firstBook = {
   hasIllustration: false,
 };
 
-oonsole.log(firstBook.genre);
+console.log(firstBook.genre);
