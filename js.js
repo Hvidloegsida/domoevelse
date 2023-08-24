@@ -14,5 +14,5 @@ pp.textContent = "JEG KAN IKKE MERE";
 console.log(pp);
 
 const no = document.querySelector("#no");
-no.textContent = "JEG VIL HJEM";
+no.innerHTML = "JEG VIL HJEM <b>TIL DIIIIIG</b>";
 console.log(no);
